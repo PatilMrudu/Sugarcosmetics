@@ -1,0 +1,166 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  
+  header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #d36060;
+  }
+  
+  /* Hero section styles */
+  
+  #hero {
+    background-image: url('igor-rand-3J4HyvV9bwY-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #c25e5c;
+  }
+  
+  /* Products section styles */
+  
+  #products {
+    padding: 80px 0;
+  }
+  
+  #products h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #products ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #products li {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #products h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #products p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* About section styles */
+  
+  #about {
+    background-image: url('annie-spratt-K4vGUuX1jtQ-unsplash.jpg');
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #about p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+  
+ 
